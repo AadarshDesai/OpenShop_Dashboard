@@ -8,7 +8,7 @@ export function Layout(){
             <Sidebar/>
             <div className="flex flex-col flex-1">
                 <Appbar/>
-                <div className="p-4">{<Outlet/>}</div>
+                <div className="p-4 overflow-scroll">{<Outlet/>}</div>
             </div>
         </div>
 }
